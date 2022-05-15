@@ -56,16 +56,15 @@ quiz = {
 }
 
 codones = {
-    #      codon   3ltr  1ltr
-    "1" : ["GAG", "glu", "E"],
-    "2" : ["AUG", "start", ""],
-    "3" : ["UGA", "stop", ""],
-    "4" : ["UGG", "trp", "W"],
+    "1" : ["GAG", "Glu", "E"],
+    "2" : ["AUG", "Met", "M"],
+    "3" : ["CCU", "Pro", "P"],
+    "4" : ["UGG", "Trp", "W"],
 }
 
 camino = {
     "1": {
-        "pregunta": "La exprecion genica comienza en:",
+        "pregunta": "La exprecion genica comienza en ____",
         "opciones": {
             "1": ["El citoplasma", False],
             "2": ["El nucleo", True],
@@ -74,7 +73,7 @@ camino = {
         },
     },
     "2": {
-        "pregunta": "donde al ADN se le une: ",
+        "pregunta": "donde al ADN se le une ____",
         "opciones": {
             "1": ["Una enzima 'ARN polimerasa' (ARNp)", True],
             "2": ["Un ARN mensajero (ARNm)", False],
@@ -83,7 +82,7 @@ camino = {
         },
     },
     "3": {
-        "pregunta": "para asi crear al ____, que es una copia de un gen espesifico",
+        "pregunta": "para asi crear al ____, que es una copia de un gen espesifico,",
         "opciones": {
             "1": ["aminoacido", False],
             "2": ["codon", False],
@@ -92,7 +91,7 @@ camino = {
         },
     },
     "4": {
-        "pregunta": "a ese proseso se lo llama:  ",
+        "pregunta": "a ese proseso se lo llama ____",
         "opciones": {
             "1": ["traducción", False],
             "2": ["transcripción", True],
@@ -101,7 +100,7 @@ camino = {
         },
     },
     "5": {
-        "pregunta": "luego el ARNm sale del nucleo para dirigirse al: ",
+        "pregunta": "luego el ARNm sale del nucleo para dirigirse al ____",
         "opciones": {
             "1": ["citoplsma", True],
             "2": ["lisosoma", False],
@@ -110,7 +109,7 @@ camino = {
         },
     },
     "6": {
-        "pregunta": "donde se lee el ARNm para crear: ",
+        "pregunta": "donde se lee el ARNm para crear ____",
         "opciones": {
             "1": ["codones", False],
             "2": ["proteinas", False],
@@ -119,7 +118,7 @@ camino = {
         },
     },
     "7": {
-        "pregunta": "una vez creado el ultimo aminoacido la cadena se dobla en una forma 3D para:",
+        "pregunta": "una vez creado el ultimo aminoacido la cadena se dobla en una forma 3D para ____",
         "opciones": {
             "1": ["formar la proteina", True],
             "2": ["ocupar menos espacio", False],
