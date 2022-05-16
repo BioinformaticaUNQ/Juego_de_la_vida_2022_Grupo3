@@ -1,6 +1,9 @@
 quiz = {
-    "1": {
-        "pregunta": "¿Cuantos tipos de aminoácidos conforman las proteinas?",
+    1: {
+        "pregunta": "¿Cuantos tipos de aminoácidos conforman las proteínas?",
+        "contexto" : """Los aminoacidos son anfolitos (reaccionan tanto con los ácidos como con las bases).
+Cuentan con un grupo amino (NH2) y un grupo Carboxilico (COOH) y siempre hay un átomo de carbono entre estos grupos.
+También cuentan con un tercer grupo variable denominado 'R' el cual termina de definir la naturaleza del aminoacido""",
         "opciones": {
             "1": ["64 aminoacidos", False],
             "2": ["22 aminoacidos", True],
@@ -8,16 +11,18 @@ quiz = {
             "4": ["19 aminoacidos", False],
         },
     },
-    "2": {
+    2: {
         "pregunta": "¿Que es la transcripción?",
+        "contexto" : """El ARN, al igual que el ADN son Acidos nucleicos. Estos constituyen el material genetico de los organismos y son necesarios para el
+almacenamiento y la exprecion de la informacion genetica""",
         "opciones": {
-            "1": ["Es el proceso en el que se hace una copia de un gen concreto", True],
+            "1": ["Es el proceso en el que el ARNm copia un gen concreto", True],
             "2": ["Es el proceso en el que los codones se traducen a aminoacidos", False],
             "3": ["Es cuando el ARNm sale del nucleo", False],
             "4": ["Es el proceso en el que se crean las proteinas", False],
         },
     },
-    "3": {
+    3: {
         "pregunta": "¿Donde ocurre la transcripción?",
         "opciones": {
             "1": ["Es el citoplsma", False],
@@ -26,7 +31,7 @@ quiz = {
             "4": ["En la enzima 'ARN polimerasa'", False],
         },
     },
-    "4": {
+    4: {
         "pregunta": "Que es la traduccion",
         "opciones": {
             "1": ["Es el proseso en el cual el ARNm hace una copia de un gen", False],
@@ -35,7 +40,7 @@ quiz = {
             "4": ["Es cuando la cadena de aminoacidos se dobla para formar una estructura 3D compleja y asi crear la proteina", False],
         },
     },
-    "5": {
+    5: {
         "pregunta": "¿Donde ocurre la traduccion?",
         "opciones": {
             "1": ["Es el citoplsma", True],
@@ -44,8 +49,11 @@ quiz = {
             "4": ["En la enzima 'ARN polimerasa'", False],
         },
     },
-    "6": {
+    6: {
         "pregunta": "¿A quien se la concidera la madre de la bioinformatica?",
+        "contexto" : """(11 de marzo de 1925 - 5 de febrero de 1983) fue una fisicoquímica estadounidense y pionera en el campo de la bioinformática
+Dedicó su carrera a aplicar las tecnologías computacionales en evolución para respaldar los avances en biología y medicina, más notablemente la
+creación de bases de datos de proteínas y ácidos nucleicos y herramientas para interrogar las bases de datos.""",
         "opciones": {
             "1": ["Françoise Barré-Sinoussi", False],
             "2": ["Christine Anne Orengo", False],
@@ -56,10 +64,16 @@ quiz = {
 }
 
 codones = {
-    "1" : ["GAG", "Glu", "E"],
-    "2" : ["AUG", "Met", "M"],
-    "3" : ["CCU", "Pro", "P"],
-    "4" : ["UGG", "Trp", "W"],
+    1 : ["GAG", "Glu", "E"],
+    2 : ["AUG", "Met", "M"],
+    3 : ["CCU", "Pro", "P"],
+    4 : ["UGG", "Trp", "W"],
+    5 : ["GAC", "Asp", "D"],
+    6 : ["UCU", "Ser", "S"],
+    7 : ["UAC", "Tyr", "Y"],
+    8 : ["GUG", "Val", "V"],
+    9 : ["GCA", "Ala", "A"],
+    10 : ["CCC", "Pro", "P"],
 }
 
 camino = {
