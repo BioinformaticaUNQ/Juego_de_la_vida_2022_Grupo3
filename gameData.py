@@ -14,7 +14,7 @@ También cuentan con un tercer grupo variable denominado 'R' el cual termina de 
     2: {
         "pregunta": "¿Que es la transcripción?",
         "contexto" : """El ARN, al igual que el ADN son Acidos nucleicos. Estos constituyen el material genetico de los organismos y son necesarios para el
-almacenamiento y la exprecion de la informacion genetica""",
+almacenamiento y la excreción de la informacion genetica""",
         "opciones": {
             "1": ["Es el proceso en el que el ARNm copia un gen concreto", True],
             "2": ["Es el proceso en el que los codones se traducen a aminoacidos", False],
